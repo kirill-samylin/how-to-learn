@@ -1,0 +1,7 @@
+@import url(./__iframes/video__iframes.css);
+.video {
+  margin-top: 40px;
+  position: relative;
+  z-index: 3;
+  bottom: -60px;
+}

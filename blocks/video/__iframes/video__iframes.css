@@ -1,0 +1,7 @@
+.video__iframes {
+  margin-top: 50px;
+  text-align: center;
+}
+.video__iframes iframe {
+  padding-right: 20px;
+}
