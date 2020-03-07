@@ -1,5 +1,5 @@
 .cards__item {
-  width: 240px;
+  max-width: 240px;
 }
 .cards__item:nth-child(3n+2) {
   margin: auto 100px;

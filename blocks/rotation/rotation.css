@@ -1,0 +1,22 @@
+@keyframes rotation_square {
+  from {
+      transform: rotate(-15deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+@keyframes rotation_triangle {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+/* не совсем понял как правильно создать 2 анимации
+но один стиль rotation, надеюсь реализую правильно.
+планировал в папке rotation сделать 2 папки и 2 файла rotation_square-pic и rotation_triangle
+но как понял из ошибок нужно создать 1 стиль rotation
+Класс animation_rotation не соответствует БЭМ, используйте просто rotation
+*/

@@ -1,3 +1,4 @@
+@import url(../../rotation/rotation.css);
 .header__square-pic {
   background-color: #3366ff;
   width: 568px;
@@ -8,3 +9,10 @@
   z-index: 0;
   transform: rotate(-15deg);
 }
+.header__square-pic.rotation {
+  animation: rotation_square 20s linear infinite;
+}
+/* не совсем понял как правильно создать 2 анимации
+но один стиль rotation, надеюсь реализую правильно.
+планировал в папке rotation сделать 2 папки и 2 файла rotation_square-pic и rotation_triangle
+но как понял из ошибок нужно создать 1 стиль rotation*/

@@ -6,6 +6,6 @@
       opacity: 0.55;
   }
 }
-.animation_link:hover {
+.link:hover {
   animation: opacity 2s linear 1 normal forwards;
 }

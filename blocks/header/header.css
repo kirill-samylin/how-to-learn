@@ -12,12 +12,4 @@
   position: relative;
   overflow: hidden;
 }
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  height: 32px;
-}
-.logo {
-  width: 183px;
-}
+
